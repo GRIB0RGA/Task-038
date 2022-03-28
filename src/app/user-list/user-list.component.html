@@ -1,0 +1,5 @@
+<div class="user" *ngFor="let customer of customers">
+    <p>{{customer.id}}</p>
+    <p>{{customer.username}}</p>
+    <button (click)="showUserDetails(customer.id)">Show Details</button>
+</div>
